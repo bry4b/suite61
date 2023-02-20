@@ -4,4 +4,5 @@
   (lib (name "nice-nano-kicad-master")(type "KiCad")(uri "${KIPRJMOD}/nice-nano-kicad-master")(options "")(descr ""))
   (lib (name "LIB_503480-0500")(type "KiCad")(uri "${KIPRJMOD}/LIB_503480-0500")(options "")(descr ""))
   (lib (name "LIB_MSK12C02")(type "KiCad")(uri "${KIPRJMOD}/LIB_MSK12C02")(options "")(descr ""))
+  (lib (name "suite61")(type "KiCad")(uri "${KIPRJMOD}/suite61.pretty")(options "")(descr ""))
 )
