@@ -2,4 +2,6 @@
   (lib (name "marbastlib-mx")(type "KiCad")(uri "${KIPRJMOD}/marbastlib/marbastlib-mx.pretty")(options "")(descr ""))
   (lib (name "marbastlib-various")(type "KiCad")(uri "${KIPRJMOD}/marbastlib/marbastlib-various.pretty")(options "")(descr ""))
   (lib (name "nice-nano-kicad-master")(type "KiCad")(uri "${KIPRJMOD}/nice-nano-kicad-master")(options "")(descr ""))
+  (lib (name "LIB_503480-0500")(type "KiCad")(uri "${KIPRJMOD}/LIB_503480-0500")(options "")(descr ""))
+  (lib (name "LIB_MSK12C02")(type "KiCad")(uri "${KIPRJMOD}/LIB_MSK12C02")(options "")(descr ""))
 )

@@ -2,5 +2,5 @@
   (lib (name "marbastlib-mx")(type "KiCad")(uri "${KIPRJMOD}/marbastlib/marbastlib-mx.kicad_sym")(options "")(descr ""))
   (lib (name "marbastlib-various")(type "KiCad")(uri "${KIPRJMOD}/marbastlib/marbastlib-various.kicad_sym")(options "")(descr ""))
   (lib (name "nice_nano")(type "KiCad")(uri "${KIPRJMOD}/nice-nano-kicad-master/nice_nano.kicad_sym")(options "")(descr ""))
-  (lib (name "JS5208")(type "KiCad")(uri "C:/Users/bryan/Downloads/JS5208/JS5208.kicad_sym")(options "")(descr ""))
+  (lib (name "MSK12C02")(type "Legacy")(uri "${KIPRJMOD}/LIB_MSK12C02/MSK12C02.lib")(options "")(descr ""))
 )
