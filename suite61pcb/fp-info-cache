@@ -1,4 +1,4 @@
-21054572763051954
+21057926783240360
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -87996,6 +87996,20 @@ suite61
 0
 5
 5
+suite61
+SW_MX_2.25u
+Footprint for Cherry Clip/Screw in type stabilizers, 2.25u
+
+0
+2
+2
+suite61
+SW_MX_P_2.25u
+Footprint for Cherry Clip/Screw in type stabilizers, 2.25u, plated
+
+0
+4
+2
 suite61
 jumper
 
