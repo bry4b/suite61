@@ -1,4 +1,4 @@
-21057926783240360
+21057926888710230
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -87990,13 +87990,6 @@ nice_nano
 27
 27
 suite61
-2-way joystick switch
-
-
-0
-5
-5
-suite61
 SW_MX_2.25u
 Footprint for Cherry Clip/Screw in type stabilizers, 2.25u
 
@@ -88010,6 +88003,13 @@ Footprint for Cherry Clip/Screw in type stabilizers, 2.25u, plated
 0
 4
 2
+suite61
+joycon joystick
+
+
+0
+5
+5
 suite61
 jumper
 
