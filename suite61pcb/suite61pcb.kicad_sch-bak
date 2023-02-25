@@ -1427,7 +1427,6 @@
     )
   )
 
-
   (junction (at 175.26 78.74) (diameter 0) (color 0 0 0 0)
     (uuid 02da7c88-bed3-445d-b373-c98255a66895)
   )
@@ -1641,9 +1640,6 @@
   (junction (at 245.11 125.73) (diameter 0) (color 0 0 0 0)
     (uuid fce5a730-17e8-4e04-a24c-edc0153eec5f)
   )
-
-  (no_connect (at 341.63 172.72) (uuid 1c706efc-850f-4cd8-8f5c-be146a13c74e))
-  (no_connect (at 335.28 96.52) (uuid a37cdc6b-bdf3-4b0a-ae6e-10cf9d93a689))
 
   (wire (pts (xy 124.46 38.1) (xy 142.24 38.1))
     (stroke (width 0) (type default) (color 0 0 0 0))
@@ -3475,7 +3471,7 @@
     (uuid 9019aa46-e007-4a20-a52f-6b687cc5d79f)
     (property "Reference" "J1" (id 0) (at 238.76 106.68 0))
     (property "Value" "Battery JST" (id 1) (at 238.76 109.22 0))
-    (property "Footprint" "suite61:JST_S2B-PH-SM4-TB" (id 2) (at 240.03 104.14 0)
+    (property "Footprint" "Connector_JST:JST_EH_S2B-EH_1x02_P2.50mm_Horizontal" (id 2) (at 240.03 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 240.03 104.14 0)
@@ -4657,7 +4653,7 @@
       (reference "D33") (unit 1) (value "1N4148W") (footprint "Diode_SMD:D_SOD-123")
     )
     (path "/9019aa46-e007-4a20-a52f-6b687cc5d79f"
-      (reference "J1") (unit 1) (value "Battery JST") (footprint "suite61:JST_S2B-PH-SM4-TB")
+      (reference "J1") (unit 1) (value "Battery JST") (footprint "Connector_JST:JST_EH_S2B-EH_1x02_P2.50mm_Horizontal")
     )
     (path "/f88f3bce-421d-4ea6-bc4e-2ce69437148b"
       (reference "J2") (unit 1) (value "OLED") (footprint "Connector_PinHeader_2.00mm:PinHeader_1x04_P2.00mm_Vertical")
