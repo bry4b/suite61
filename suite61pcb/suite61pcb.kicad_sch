@@ -1427,7 +1427,6 @@
     )
   )
 
-
   (junction (at 175.26 78.74) (diameter 0) (color 0 0 0 0)
     (uuid 02da7c88-bed3-445d-b373-c98255a66895)
   )
@@ -4418,7 +4417,7 @@
     (uuid f88f3bce-421d-4ea6-bc4e-2ce69437148b)
     (property "Reference" "J2" (id 0) (at 238.76 114.3 0))
     (property "Value" "OLED" (id 1) (at 238.76 116.84 0))
-    (property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x04_P2.00mm_Vertical" (id 2) (at 238.76 125.73 0)
+    (property "Footprint" "SofleKeyboard-footprint:OLED_4Pin" (id 2) (at 238.76 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 238.76 125.73 0)
@@ -4660,7 +4659,7 @@
       (reference "J1") (unit 1) (value "Battery JST") (footprint "suite61:JST_S2B-PH-SM4-TB")
     )
     (path "/f88f3bce-421d-4ea6-bc4e-2ce69437148b"
-      (reference "J2") (unit 1) (value "OLED") (footprint "Connector_PinHeader_2.00mm:PinHeader_1x04_P2.00mm_Vertical")
+      (reference "J2") (unit 1) (value "OLED") (footprint "SofleKeyboard-footprint:OLED_4Pin")
     )
     (path "/8ef6be0b-6e32-4acb-b9a5-f9b261e41966"
       (reference "J3") (unit 1) (value "FFC_Receiver") (footprint "LIB_503480-0500:5034800500")
