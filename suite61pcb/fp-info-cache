@@ -1,4 +1,4 @@
-21383253782129691
+21386608639487349
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -89314,6 +89314,20 @@ SOD-123
 2
 suite61
 JST_S2B-PH-SM4-TB
+
+
+0
+4
+4
+suite61
+SK6812MINI-E
+
+
+0
+8
+4
+suite61
+SK6812MINI-E_RVRSMOUNT
 
 
 0

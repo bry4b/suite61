@@ -3,4 +3,6 @@
   (lib (name "marbastlib-various")(type "KiCad")(uri "${KIPRJMOD}/marbastlib/marbastlib-various.kicad_sym")(options "")(descr ""))
   (lib (name "nice_nano")(type "KiCad")(uri "${KIPRJMOD}/nice-nano-kicad-master/nice_nano.kicad_sym")(options "")(descr ""))
   (lib (name "MSK12C02")(type "Legacy")(uri "${KIPRJMOD}/LIB_MSK12C02/MSK12C02.lib")(options "")(descr ""))
+  (lib (name "JST-S2B-PH-SM4-TB")(type "KiCad")(uri "${KIPRJMOD}/JST-S2B-PH-SM4-TB.kicad_sym")(options "")(descr ""))
+  (lib (name "SK6812MINI-E")(type "KiCad")(uri "${KIPRJMOD}/SK6812MINI-E.kicad_sym")(options "")(descr ""))
 )
