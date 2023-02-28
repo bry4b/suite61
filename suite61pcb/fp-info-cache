@@ -1,4 +1,4 @@
-21386608639487349
+21388274324607640
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -59714,7 +59714,7 @@ MSK12C02
 MSK12C02-1
 Switch
 0
-7
+14
 7
 Module
 A20_OLINUXINO_LIME2
@@ -89291,6 +89291,13 @@ nice_nano
 0
 54
 27
+nice_view
+nice_view
+
+
+0
+5
+5
 suite61
 CherryMX_Hotswap
 
@@ -89313,12 +89320,12 @@ SOD-123
 4
 2
 suite61
-JST_S2B-PH-SM4-TB
-
-
+JST_SH_SM02B-SRSS-TB_1x02-1MP_P1.00mm_Horizontal
+JST SH series connector, SM02B-SRSS-TB (http://www.jst-mfg.com/product/pdf/eng/eSH.pdf), generated with kicad-footprint-generator
+connector JST SH top entry
 0
-4
-4
+8
+3
 suite61
 SK6812MINI-E
 

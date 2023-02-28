@@ -384,6 +384,7 @@
         "nets": [
           "BATTERY",
           "GND",
+          "LEDPWR",
           "VCC"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
@@ -405,7 +406,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "suite61pcb.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""

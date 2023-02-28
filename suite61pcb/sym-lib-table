@@ -5,4 +5,5 @@
   (lib (name "MSK12C02")(type "Legacy")(uri "${KIPRJMOD}/LIB_MSK12C02/MSK12C02.lib")(options "")(descr ""))
   (lib (name "JST-S2B-PH-SM4-TB")(type "KiCad")(uri "${KIPRJMOD}/JST-S2B-PH-SM4-TB.kicad_sym")(options "")(descr ""))
   (lib (name "SK6812MINI-E")(type "KiCad")(uri "${KIPRJMOD}/SK6812MINI-E.kicad_sym")(options "")(descr ""))
+  (lib (name "nice_view")(type "KiCad")(uri "${KIPRJMOD}/nice_view.kicad_sym")(options "")(descr ""))
 )
