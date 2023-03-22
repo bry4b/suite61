@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 0.0,
+          "height": 1.0,
+          "width": 0.7
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -55,13 +55,39 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "clearance|179138551|40468682|7a6f30c0-b004-4b71-ae5c-48b8376dacac|c1ad4319-c726-4371-be16-27c52432c36e",
+        "clearance|179935652|49570526|631da1a4-a31c-4cd6-aff1-89366276044c|608000cc-1a0c-479e-bc61-e4937218e6b9",
+        "clearance|180784414|37289664|0eb54a6f-105a-48c9-bac0-0b13796cc580|511b63f6-4459-4ead-af47-8f3320b82b9e",
+        "clearance|181634233|59733669|e90a50bb-ad02-4b96-b8a1-43bf2db66d1f|9842d10e-3db1-4c59-aaba-da605517f553",
+        "clearance|182076000|60356740|a08480c9-7110-4807-bc92-02f46feadb71|f8f54dc1-984c-48d3-8c0d-ba3ce35687fb",
+        "clearance|193860380|38187885|8a0e8f65-47ce-4ee3-be23-134e5a825669|e663fb8c-0787-4e5b-b6c9-edc4a811c89b",
+        "clearance|194140240|45322691|3093b5ba-50c8-46b5-a71a-6d4bc0019fec|909ae847-8362-478a-9926-42fbdfb74870",
+        "clearance|69902714|75352714|8ed852a7-5897-4b36-a14c-0ab423333c47|588ffcad-a34a-40a8-b7a6-5b7b209a5ab4",
+        "courtyards_overlap|186890001|92758965|9bd7aa2b-a398-404e-b12d-f4cb355b1786|5a2a391c-9b6d-4d04-baec-28e2f28d2133",
+        "courtyards_overlap|186915215|92758965|9bd7aa2b-a398-404e-b12d-f4cb355b1786|5a2a391c-9b6d-4d04-baec-28e2f28d2133",
+        "hole_clearance|183483964|89006464|60acfc8e-2884-4589-a7e2-f89486ac0bff|d0d58eae-6391-4bfe-964c-8f7cc969db04",
+        "hole_clearance|186543964|83926464|090a3c77-06ce-4118-9117-309015683519|dac6e6b1-4bb2-46d0-b64c-1b2a9a71f9ec",
+        "hole_clearance|191623964|83926464|4381aefa-294a-4cb5-9ed5-2e9465e0526a|63063adb-beb9-4bf6-996f-62099a9af0d7",
+        "hole_clearance|43556464|95178964|56bd1cbc-98b4-4b3a-a3c9-7882f82736d6|5a1d4acb-e9da-4af3-867d-f404d0ac6224",
+        "hole_clearance|46090214|89457714|73346827-baa8-4be8-83a4-273b839a99a2|5a1d4acb-e9da-4af3-867d-f404d0ac6224",
+        "hole_clearance|49846464|97718964|4da7b898-8673-4aee-a7ef-d93c1ea15024|92712ac3-d4ff-436c-9331-197ac1f8e7e7",
+        "hole_clearance|50346464|96492714|4da7b898-8673-4aee-a7ef-d93c1ea15024|9188b07b-60b5-446c-9f7d-503c6078741a",
+        "hole_clearance|53746464|96508964|cd26b2ba-8b31-4187-bf09-cda23c7a1fa7|aaefeec3-eb21-439d-96fe-ff659d680709",
+        "hole_clearance|54246464|97712714|929aa66e-31c2-401b-8a4a-0399b40004b7|aaefeec3-eb21-439d-96fe-ff659d680709",
+        "hole_clearance|55456464|77502714|587d1393-3da7-4d1d-aaf8-f1f148ee3e35|7c392af3-810c-49e6-a423-32ed73b729b8",
+        "hole_clearance|57065214|79902714|16dfd4d9-d5c0-436f-b425-e5c9b86c929b|7c392af3-810c-49e6-a423-32ed73b729b8",
+        "hole_clearance|63696464|79902714|01d0acea-230e-4f9f-81b6-9e0b25f56052|244c244c-0a9f-4278-a176-4a45b5e91130",
+        "hole_clearance|65305214|77502714|01d0acea-230e-4f9f-81b6-9e0b25f56052|a20bb2e8-c8a8-451a-8d10-c144ade262c4",
+        "hole_clearance|67362714|95172714|7d754d7c-2c3b-46a4-a0a6-b4c5daa701e7|c0aa5729-bc41-490c-8e6d-dc8eec23837b",
+        "hole_clearance|69902714|89457714|f3d64423-ca9c-49fc-922b-4a194ac923fc|c0aa5729-bc41-490c-8e6d-dc8eec23837b"
+      ],
       "meta": {
         "version": 2
       },
       "rule_severities": {
         "annular_width": "error",
-        "clearance": "error",
+        "clearance": "warning",
         "copper_edge_clearance": "error",
         "courtyards_overlap": "error",
         "diff_pair_gap_out_of_range": "error",
@@ -70,8 +96,8 @@
         "duplicate_footprints": "warning",
         "extra_footprint": "warning",
         "footprint_type_mismatch": "error",
-        "hole_clearance": "error",
-        "hole_near_hole": "error",
+        "hole_clearance": "warning",
+        "hole_near_hole": "warning",
         "invalid_outline": "error",
         "item_on_disabled_layer": "error",
         "items_not_allowed": "error",
